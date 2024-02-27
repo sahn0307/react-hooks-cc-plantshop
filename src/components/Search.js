@@ -8,7 +8,10 @@ function Search() {
         type="text"
         id="search"
         placeholder="Type a name to search..."
-        onChange={(e) => console.log("Searching...")}
+        onChange={(e) => {
+          console.log("Searching...")
+          
+        }}
       />
     </div>
   );

@@ -10,6 +10,7 @@ function PlantPage() {
     fetch("http://localhost:6001/plants")
       .then(res => res.json())
       .then(data => setPlants(data))
+      .catch(err => console.log(err))
   }, []);
 
   return (
