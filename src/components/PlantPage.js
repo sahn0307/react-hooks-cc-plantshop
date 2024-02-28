@@ -3,7 +3,7 @@ import NewPlantForm from "./NewPlantForm";
 import PlantList from "./PlantList";
 import Search from "./Search";
 
-function PlantPage( onAddNewPlant) {
+function PlantPage( {onAddNewPlant} ) {
   const [plants, setPlants] = useState([]);
   const [searchItem, setSearchItem] = useState('')
 
@@ -19,6 +19,10 @@ function PlantPage( onAddNewPlant) {
     setPlants(newPlantsArray);
   }
 
+  function handleDeletePlant(id) {
+    const newPlantsArray = plants.filter(plant => plant.id !== id);
+    setPlants(newPlantsArray);
+  }
   const filteredPlants =plants.filter((plant => {
     return plant.name.toLowerCase().includes(searchItem.toLowerCase())
   }))
@@ -27,7 +31,7 @@ function PlantPage( onAddNewPlant) {
     <main>
       <NewPlantForm handleAddNewPlant={handleAddNewPlant} />
       <Search searchItem={searchItem} setSearchItem={setSearchItem}/>
-      <PlantList plants={filteredPlants}/>
+      <PlantList plants={filteredPlants} deletePlant={handleDeletePlant}/>
     </main>
   );
 }
