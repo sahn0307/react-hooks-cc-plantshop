@@ -59,6 +59,42 @@
       "image": "https://cdn.shopify.com/s/files/1/0573/3993/6868/t/6/assets/asparagus-basket.jpeg-1694727561652.jpg?v=1694727562",
       "price": "20.42",
       "id": 10
+    },
+    {
+      "name": "Asparagus",
+      "image": "https://cdn.shopify.com/s/files/1/0573/3993/6868/t/6/assets/asparagus-basket.jpeg-1694727561652.jpg?v=1694727562",
+      "price": "22",
+      "id": 11
+    },
+    {
+      "name": "Asparagus Test",
+      "image": "https://cdn.shopify.com/s/files/1/0573/3993/6868/t/6/assets/asparagus-basket.jpeg-1694727561652.jpg?v=1694727562",
+      "price": "3",
+      "id": 12
+    },
+    {
+      "name": "Test 4",
+      "image": "https://cdn.shopify.com/s/files/1/0573/3993/6868/t/6/assets/asparagus-basket.jpeg-1694727561652.jpg?v=1694727562",
+      "price": "5",
+      "id": 13
+    },
+    {
+      "name": "Test 28",
+      "image": "http://localhost:3000/images/aloe.jpg",
+      "price": "2",
+      "id": 14
+    },
+    {
+      "name": "test 69",
+      "image": "http://localhost:3000/images/zz-plant.jpg",
+      "price": "111",
+      "id": 15
+    },
+    {
+      "name": "test 420",
+      "image": "http://localhost:3000/images/pilea.jpg",
+      "price": "515151",
+      "id": 16
     }
   ]
 }
