@@ -7,11 +7,11 @@ function NewPlantForm({handleAddNewPlant}) {
   const [price, setPrice] = useState("");
 
   //console.log({ name, image, price })
-  
+  //! Add something to clear form after submit?
   function handleSubmit(e) {
     e.preventDefault();
     //post
-    console.log(handleAddNewPlant)
+    //console.log(handleAddNewPlant)
     fetch("http://localhost:6001/plants", {
       method: "POST",
       headers: {

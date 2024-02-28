@@ -23,6 +23,7 @@ function PlantPage( {onAddNewPlant} ) {
     const newPlantsArray = plants.filter(plant => plant.id !== id);
     setPlants(newPlantsArray);
   }
+  
   const filteredPlants =plants.filter((plant => {
     return plant.name.toLowerCase().includes(searchItem.toLowerCase())
   }))

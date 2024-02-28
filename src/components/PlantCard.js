@@ -6,6 +6,7 @@ function PlantCard( { id, name, image, price, deletePlant} ) {
   function handleToggle() {
     setInStock(inStock => !inStock);
   }
+  
   function handleDeleteClick() {
     fetch(`http://localhost:6001/plants/${id}`, {
       method: "DELETE"

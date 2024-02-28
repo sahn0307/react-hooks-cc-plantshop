@@ -41,6 +41,12 @@
       "name": "Fiddle Leaf Fig",
       "image": "./images/fiddle-leaf-fig.jpg",
       "price": 55
+    },
+    {
+      "name": "Asparagus",
+      "image": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTbUEK_0nI_gHNzcKtxcA1nyOz0MlCIS_WlNLIFCIoIl8QDM5ro",
+      "price": "77",
+      "id": 8
     }
   ]
 }

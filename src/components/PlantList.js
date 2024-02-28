@@ -6,7 +6,9 @@ function PlantList( { plants, deletePlant }) {
     <ul className="cards">
       {/* render PlantCards components in here */}
       {plants.map((plant) => {
-        return <PlantCard key={plant.id} id={plant.id} name={plant.name} image={plant.image} price={plant.price} deletePlant={deletePlant}/>
+        return <PlantCard key={plant.id} id={plant.id} name={plant.name} 
+                image={plant.image} price={plant.price} deletePlant={deletePlant}
+              />
       })}
       </ul>
   );
